@@ -1,0 +1,119 @@
+*{
+  padding: 0px;
+  margin: 0px;
+}
+body{
+  background-color: rgba(11, 26, 92, 0.205);
+}
+header{
+  background-color: rgba(11, 26, 92, 0.205);
+  padding: 10px;
+}
+
+.menu{
+  display: inline-block;
+  background: lightgray;
+  color: black;
+  padding: 10px;
+  text-decoration: none;
+  border-left: 10px solid rgb(8, 96, 179);
+  border-right: 5px solid rgb(144, 253, 111);
+}
+.menu:hover{
+  margin-left: 10px;
+  background: #006a71;
+  box-shadow: 10px 10px 20px #000;
+  transform: rotate(4deg);
+  -moz-transform: scale(1.5,1.5);
+  -webkit-transform: scale(1.5,1.5);
+}
+
+.color{
+  display: inline-block;
+  background: #006a71;
+  text-decoration: none;
+  color: black;
+  padding: 15px;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  background: rgba(11, 26, 92, 0.205);
+  padding: 10px;
+}
+/* excepción - cambios en los dispositivos que en este caso tienen menos de 600px de ancho*/
+@media (max-width: 600px)
+{
+  nav{
+    flex-direction: column;
+  }
+}
+p{
+  width: 80%;
+  text-align: justify;
+  padding: 5%;
+  font-family: fantasy;
+}
+.img{
+  padding: 10px;
+  width: 95%;
+  height: 90%;
+}
+tr{
+  color: #000;
+    height: 100%;
+    padding: 20px 10px 20px 40px;
+    margin: 15px;
+    border: 1px solid #999999;
+    background-image: url(https://www.sas.com/fr_ma/certification/references/promotion/online-proctored/_jcr_content/par/styledcontainer_8b45/image.img.png/1551801314622.png);
+    border-radius: 15px;
+    border: solid 5px #999999;
+    border-radius: 15px 0px 15px 0px;
+    box-shadow: 2px 2px 5px #c0c2c3;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+}
+h1{
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  text-align: center;
+}
+
+div{
+  padding: 10px;
+  background-image: url(https://bs-uploads.toptal.io/blackfish-uploads/blog/article/content/cover_image_file/cover_image/14518/cover-default-cover-7-806a3e10c41a2213d7efc6d9e1034d62.png);
+  margin: 3px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.c1{
+  color: lightslategray;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+
+h2{
+  color: aliceblue;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 35px;
+  text-align: justify;
+}
+
+ul{
+  padding: 15px;
+  text-align: justify;
+  color: antiquewhite;
+}
+.c2{
+  text-decoration: none;
+  font-size: 50px;
+  padding: 10px;
+  font-family: monospace;
+  color: gold;
+}
+
+.c2:hover{
+  color: rgb(128, 7, 7);
+}
